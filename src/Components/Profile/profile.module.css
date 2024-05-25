@@ -23,3 +23,15 @@
   align-items: center;
   margin-top: 15px;
 }
+
+.profileList {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.profileSubLi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

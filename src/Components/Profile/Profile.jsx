@@ -10,18 +10,18 @@ export default function Profile({ name, tag, image, location, stats }) {
         <p>{location}</p>
       </div>
 
-      <ul>
-        <li>
+      <ul className={css.profileList}>
+        <li className={css.profileSubLi}>
           <span>Followers</span>
           <span>{stats.followers}</span>
         </li>
 
-        <li>
+        <li className={css.profileSubLi}>
           <span>Views</span>
           <span>{stats.views}</span>
         </li>
 
-        <li>
+        <li className={css.profileSubLi}>
           <span>Likes</span>
           <span>{stats.likes}</span>
         </li>
