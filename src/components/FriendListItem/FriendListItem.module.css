@@ -6,13 +6,6 @@
   color: red;
 }
 
-.friendsUl {
-  margin-top: 30px;
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-}
-
 .friendsLi {
   border: 2px solid black;
   display: flex;
