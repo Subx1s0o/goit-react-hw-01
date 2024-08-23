@@ -6,7 +6,6 @@ import friends from "./friends.json";
 import transactions from "./transactions.json";
 import userData from "./userData.json";
 
-// ....
 function App() {
   return (
     <div className="container">
